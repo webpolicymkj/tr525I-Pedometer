@@ -1,6 +1,6 @@
 {
-  "short_name": "Walking Tracker",
-  "name": "Walking Tracker: Pedometer",
+  "short_name": "Step Counter",
+  "name": "Step Counter: Daily Walk",
   "icons": [
     {
       "src": "favicon.ico",
