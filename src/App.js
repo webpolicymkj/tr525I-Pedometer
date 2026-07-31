@@ -19,8 +19,8 @@ function Header() {
           <div className="container header-container">
             <div className="header-left">
               <div className="logo-wrapper">
-                <img src={logoImg} alt="Step Counter: Daily Walk" className="logo-img" />
-                <span className="studio-name">Step Counter: Daily Walk</span>
+                <img src={logoImg} alt="Step Tracker: Walking App" className="logo-img" />
+                <span className="studio-name">Step Tracker: Walking App</span>
               </div>
             </div>
 
@@ -41,12 +41,12 @@ function HomePage() {
       <section id="about" className="section about">
         <div className="container about-row">
           <div className="about-text-container">
-            <h2 className="highlight-title">Step Counter: Daily Walk</h2>
-            <p className="about-text">Step Counter: Daily Walk is a simple, fast, and easy-to-use app for counting your daily steps. It uses your device's built-in step sensor to track how far you walk, how long you were active, and roughly how many calories you burned, then sets it all against a daily goal you choose. You can also record a walk to see its route on a map. Your step history and routes are kept on your own device, and the app runs quietly in the background without draining your battery.
+            <h2 className="highlight-title">Step Tracker: Walking App</h2>
+            <p className="about-text">Step Tracker: Walking App is a simple, fast, and easy-to-use app for counting your daily steps. It uses your device's built-in step sensor to track how far you walk, how long you were active, and roughly how many calories you burned, then sets it all against a daily goal you choose. You can also record a walk to see its route on a map. Your step history and routes are kept on your own device, and the app runs quietly in the background without draining your battery.
             </p>
           </div>
           <div className="about-img-container">
-            <img src={bannerApp} alt="Step Counter: Daily Walk" className="about-img" />
+            <img src={bannerApp} alt="Step Tracker: Walking App" className="about-img" />
           </div>
         </div>
       </section>
@@ -66,7 +66,7 @@ function App() {
         </Routes>
         <footer className="footer">
           <div className="container text-center">
-            <p>&copy; {new Date().getFullYear()} Step Counter: Daily Walk. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Step Tracker: Walking App. All rights reserved.</p>
           </div>
         </footer>
       </div>
